@@ -1,6 +1,6 @@
 # test_imdb_scraper.py
 import unittest
-from imdb_scraper import parse_main_page, save_to_csv
+from scraper import parse_main_page, save_to_csv
 
 class TestImdbScraper(unittest.TestCase):
 
