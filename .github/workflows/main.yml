@@ -3,7 +3,7 @@ name: Run Python Script (BRT schedule)
 on:
   schedule:
     # Executa às 00h, 06h, 12h e 18h BRT
-    - cron: "0 3,9,13,1,21 * * *"
+    - cron: "0 3,9,13.1,21 * * *"
   workflow_dispatch: # permite rodar manualmente também
 
 jobs:
