@@ -1,4 +1,4 @@
-# test_imdb_scraper.py
+# test_scraper.py
 import unittest
 from scraper import parse_main_page, save_to_csv
 
